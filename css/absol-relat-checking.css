@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+}
+.red{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  padding: 12px;
+  margin: 12px;
+}
+
+.blue{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  margin: 12px;
+
+}
+
+.yellow{
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+h1 {
+  background-color: green;
+  display: inline-block;
+  padding: 12px;
+  margin: 12px;
+  border: 12px solid;
+}
+h2 {
+  background-color: purple;
+  display: inline-block;
+}

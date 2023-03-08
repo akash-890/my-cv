@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+p {
+  line-height: 2;
+}
+h1 {
+  font-size: 5.625rem ;  /*90px  */;
+  margin: 20px auto 0 auto;
+  font-family: 'Sacramento', serif;
+  color: #66BFBF;
+}
+h2 {
+  font-family: 'Montserrat',sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Montserrat',sans-serif;
+  caret-color: #11999E;
+  color: #66BFBF;
+}
+hr {
+  border: none;                                                /*** this code is also True *****/
+  border-top: dotted #EAF6F6 6px;                                   /* color: #EAF6F6;   */
+  width: 5%;                                                        /*border-style: none; */
+  padding-top: 10px;                                                /*border-top-style: dotted; */
+  padding-bottom: 10px;                                             /*border-width: 5px;*/
+}
+a {
+  color: #11999E;
+}
+.top-container{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.profile {
+  margin: 50px auto;
+  /* position: absolute;
+  left: 16%;
+} */
+}
+.profile-para{
+  text-decoration: #40514E;
+  width: 40%;
+  margin: auto;
+}
+.skills {
+  padding-top: 10px;
+
+}
+/**********solution of lecture 394 ***********/
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  padding-top: 10px;
+}
+.css-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+/* clear property is used to clear left or right html element of that text.*/
+/* .css-img-para {
+  clear: left;
+} */
+.python-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px; /*you can also use "padding-left" property.*/
+
+}
+.contact-me {
+  width: 50%;
+  margin: 5% auto;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.footer-link {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+.bottom-para {
+  color: #EAF6F6;
+  font-size: 0.79rem;
+  padding: 20px 0 0;
+  font-family: 'Merriweather', serif;
+}
+
+.get-in-touch {
+  line-height: 3;
+}
+.freelance-para {
+  line-height: 3;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  line-height: 3;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.programmer {
+  font-size: 2.5rem;
+}
+.contact-para {
+  width: 30%;
+  margin: 5% auto 10%;
+}
+.pro {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right: 20%;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+}
+
+/* .mountain {
+  margin-left: 30%; */
+/* }
+.paragraph {
+  margin-left: 45%; */
